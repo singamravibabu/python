@@ -168,6 +168,7 @@ The `pickle` module is a versatile tool for saving and loading Python objects in
 ```python
 with open("file.bin", "wb") as file:
     pickle.dump(object, file)
+```
 
 - **Reading from a binary file**:
 
